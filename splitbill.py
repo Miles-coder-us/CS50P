@@ -1,0 +1,7 @@
+bill = float(input("How much is the final bill? "))
+people = int(input("How many people are splitting the bill? ")) 
+amwotip = round(bill/people, 2)
+print(f"Each persons owes ${amwotip}")
+tip = float(input("What percentage would you like to tip? "))
+totalwtip = round(amwotip + amwotip * (tip / 100), 2)
+print(f"Each persons total with tip will be ${totalwtip}")

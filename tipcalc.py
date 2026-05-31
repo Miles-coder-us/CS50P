@@ -1,0 +1,6 @@
+bill = float(input("How much is the final bill? "))
+tip_percent = float(input("What percentage would you like to tip? "))
+tip_amount = round(bill * (tip_percent / 100), 2)
+total = round(bill + tip_amount, 2)
+print(f"Tip amount: ${tip_amount}")
+print(f"Total bill: ${total}")
